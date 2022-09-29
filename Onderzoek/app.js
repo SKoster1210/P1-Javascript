@@ -30,3 +30,7 @@ if (x < 10 && y > 4) {
 } else {
     document.write("Nee, klopt niet. | X is " + x  + " en Y is " + y + "| " + "\n"); 
 }
+
+
+
+
