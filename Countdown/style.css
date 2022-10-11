@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Lato", sans-serif;
+  background: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.holiday {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15vh;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .day,
+  .hour,
+  .minute,
+  .second {
+    font-size: 1.5rem;
+  }
+
+  .countdown {
+    justify-content: space-evenly;
+  }
+
+ .holiday {
+   margin-top: 2vh;
+   width: 100%;
+ }
+}
